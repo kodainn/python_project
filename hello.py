@@ -16,3 +16,4 @@ bullets = ["箇条書き1",
 @app.route("/")
 def hello():
     return render_template("hello.html", bullets=bullets)
+
